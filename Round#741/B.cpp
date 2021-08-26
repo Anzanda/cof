@@ -37,11 +37,9 @@ void solve() {
 	map<int, int> m;
 	for(int i=0; i<k; i++) {
 		m[arr[i]]++;
-	}
-	for(auto it=m.begin(); it!=m.end(); it++) {
-		if(it->second >= 2) {
+		if(m[arr[i]] >= 2) {
 			cout << 2 << endl;
-			cout << it->first << it->first << endl;
+			cout << arr[i] << arr[i] << endl;
 			return;
 		}
 	}
@@ -87,6 +85,16 @@ void solve() {
 			}
 		}
 	}	
+}
+bool validNum(int tmp) {
+	while(tmp) {
+		int mod = tmp%10;
+		if(mod!=2 && mod!=3 && mod!=5 && mod!=7) {
+			return false;
+		}
+		tmp/=10;
+	}
+	return true;
 }
 int main(void) {
 	FastIO;
