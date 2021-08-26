@@ -48,7 +48,7 @@ void solve() {
 			if(i == j)	continue;
 			int tmp = 10*arr[i] + arr[j];
 			if(prime[tmp]) {
-				cout << 2 << endl;
+				cout << 3 << endl;
 				cout << tmp << endl;
 				return;
 			}
@@ -61,7 +61,7 @@ void solve() {
 				if(l==j || l==i)	continue;
 				int tmp = 100*arr[i] + 10*arr[j] + arr[l];
 				if(prime[tmp])	{
-					cout << 3 << endl;
+					cout << 4 << endl;
 					cout << tmp << endl;
 					return;
 				}
