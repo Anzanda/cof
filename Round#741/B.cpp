@@ -27,7 +27,7 @@ void input() {
 }
 void solve() {
 	for(int i=0; i<k; i++) {
-		if(arr[i]%2 == 0 || arr[i] == 1) {
+		if(arr[i] == 9 || arr[i]%2 == 0 || arr[i] == 1) {
 			if(arr[i] == 2)	continue;
 			cout << 1 << endl;
 			cout << arr[i] << endl;
