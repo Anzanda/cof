@@ -19,20 +19,20 @@ void solve() {
 		}
 	}
 	if(!flag) { // all of char is '1'
-		cout << 1 << " " << len/2 << endl;
+		cout << 1 << " " << len/2 << " ";
 		cout << len - len/2 + 1<< " " << len << endl;
 		return;
 	}
 	for(int i=0; i<len/2; i++) {
 		if(s[i] == '0') {
-			cout << i+1 << " " << len << endl;
+			cout << i+1 << " " << len << " ";
 			cout << i+1+1 << " " << len << endl;
 			return;
 		}
 	}
 	for(int i=len/2; i<len; i++) {
 		if(s[i] == '0') {
-			cout << 1 << " " << i+1 << endl;
+			cout << 1 << " " << i+1 << " ";
 			cout << 1 << " " << i+1+1 << endl; 
 		}
 	}
