@@ -32,8 +32,8 @@ void solve() {
 	}
 	for(int i=len/2; i<len; i++) {
 		if(s[i] == '0') {
-			cout << 1 << " " << i+1 << " ";
-			cout << 1 << " " << i+1+1 << endl; 
+			cout << 1 << " " << i+1+1 << " ";
+			cout << 1 << " " << i+1 << endl; 
 		}
 	}
 }
