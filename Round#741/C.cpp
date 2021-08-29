@@ -20,7 +20,7 @@ void solve() {
 	}
 	if(!flag) { // all of char is '1'
 		cout << 1 << " " << len-1;
-		cout << 2 << " " << len;
+		cout << 2 << " " << len << endl;
 		return;
 	}
 	for(int i=0; i<len/2; i++) {
