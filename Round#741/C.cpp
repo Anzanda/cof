@@ -34,6 +34,7 @@ void solve() {
 		if(s[i] == '0') {
 			cout << 1 << " " << i+1 << " ";
 			cout << 1 << " " << i << endl; 
+			return;
 		}
 	}
 }
