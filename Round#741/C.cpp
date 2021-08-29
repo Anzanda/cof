@@ -19,7 +19,7 @@ void solve() {
 		}
 	}
 	if(!flag) { // all of char is '1'
-		cout << 1 << " " << len-1;
+		cout << 1 << " " << len-1 << " ";
 		cout << 2 << " " << len << endl;
 		return;
 	}
