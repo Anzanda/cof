@@ -35,7 +35,7 @@ void initExcludeSum() {
     }
 }
 bool isAlreadyZero(int lf, int rg) {
-    int sum = dp[lf] - dp[rg];
+    int sum = dp[rg] - dp[lf-1];
     return sum == 0;
 }
 int convertToSegment(int x, int lf, int rg) {
