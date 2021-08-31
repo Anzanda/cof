@@ -97,8 +97,6 @@ void solve() {
         for(auto elem: choices) {
             cout << elem << endl; 
         }
-        
-        cout << endl;
     }
 }
 int main(void) {
