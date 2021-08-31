@@ -95,7 +95,10 @@ void solve() {
             choices.insert(cand);
         }
         for(auto elem: choices) {
-            cout << elem << endl; 
+            cout << elem << " ";
+        }
+        if(choices.size()) {
+            cout << endl;
         }
     }
 }
